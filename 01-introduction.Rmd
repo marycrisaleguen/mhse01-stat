@@ -1,0 +1,73 @@
+---
+title: "01-introduction"
+author: "Dr. Thomas Petzoldt"
+date: "2024-01-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Introduction**
+
+This tutorial assumes preliminary knowledge of basic applied statistics from a bachelor degree in natural
+sciences or engineering and aims to extend this on a problem-oriented level.
+
+This means that while some essential concepts are repeated, more serious gaps have to be filled up by self
+study. The main focus is to establish a certain degree of “statistical feeling”, therefore statistical theory is
+mostly skipped and should be taken from textbooks for full understanding.
+
+
+## **1.1 Further reading**
+
+A huge amount of statistical literature can be found on the market, and it is difficult to give recommendations,
+depending on existing knowledge and technical skills. Nevertheless, I want to give a few suggestions:
+
+  * **As a well-readable introduction:** Dalgaard, P., 2008: Introductory Statistics with R. Springer, New
+York, 2nd edition.
+
+  * **A very well understandable introduction into many fields of statistics, especially regression and
+time series analysis:** Kleiber, C. and Zeileis, A., 2008: Applied Econometrics with R, Springer, New
+York.
+
+  * **As an excellent introduction to R with strong emphasize to ANOVA methods:** Crawley, M. J.,
+2012: The R Book. Wiley.
+
+  * **A compendium about the R language and many fields of application:** Adler, J., 2010: R in a
+Nutshell. O’Reiley.
+
+  * **As comprehensive reference to many standard and also more specific methods with S-PLUS
+and R:** VENABLES, W. N. and B. D. RIPLEY, 2002: Modern Applied Statistics with S. Springer,
+New-York.
+
+  * **Advanced methods for ecological statistics** can be found in Zuur, A. F. et al., 2008: Mixed Models
+and Extensions in Ecology with R. Springer, New York.
+
+  * **and in general** many online documents about statistical data analysis with with R, see www.r-project.
+org
+
+
+## **1.2 Tasks of Statistics**
+
+It is sometimes common practice to apply statistical methods at the end of a study “to defend the reviewers”,
+but it is definitely much better to employ statistics from the beginning for planning observations and experiments and for finding an optimal balance between measurement effort and intended results. In this context,
+statistics can help to:
+
+1. Formulate hypotheses (descriptive and explorative statistics),
+2. Plan observations and experiments (optimal experimental design, estimation of the sample size),
+3. And finally to test hypotheses (test statistics and model selection methods).
+
+Similarly, it is often distinguished between:
+
+**Descriptive research:** Monitoring with the goal to “identify effects, relationships or correlations”. The
+observational subject is not manipulated.
+
+**Experimental research:** Test whether an anticipated effect can be reproduced in a controlled experiment:
+  * Manipulation of single conditions,
+  * Elimination of disturbances (constant experimental conditions),
+  * Experimental design as simple as possible.
+  
+Only experimental research is able to demonstrate causal relationships in a conclusive way. This may lead
+sometimes to disrespect against observational research, but this is not appropriate because experimental
+research always needs good observations for formulating its hypotheses.
